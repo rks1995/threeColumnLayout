@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+.card {
+  width: 200px;
+  margin: 30px auto;
+}
+
+.card img {
+  width: 27%;
+}
+
+.card h3 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 15px 0;
+  color: var(--Very-light-gray);
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.card p {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--Transparent-white);
+}
+
+.card .btn {
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  font-size: 0.75rem;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.card .sedan-class {
+  background: var(--Bright-orange);
+  padding: 30px;
+  color: #fff;
+}
+
+.card .sedan-class button {
+  color: var(--Bright-orange);
+}
+
+.card .sedan-class button:hover {
+  background: var(--Bright-orange);
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.card .suv-class {
+  background: var(--Dark-cyan);
+  padding: 30px;
+  color: #fff;
+}
+
+.card .suv-class button {
+  color: var(--Dark-cyan);
+}
+
+.card .suv-class button:hover {
+  background: var(--Dark-cyan);
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.card .luxury-class {
+  background: var(--Very-dark-cyan);
+  padding: 30px;
+  color: #fff;
+}
+
+.card .luxury-class button {
+  color: var(--Very-dark-cyan);
+}
+
+.card .luxury-class button:hover {
+  background: var(--Very-dark-cyan);
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+@media only screen and (min-width: 1024px) {
+  .card {
+    width: 50%;
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .card p {
+    font-size: 0.8em;
+  }
+  .card .btn {
+    margin-top: 70px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
